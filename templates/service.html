@@ -1,0 +1,265 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Breadcrumb Section Begin -->
+    {% comment %} <section class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>Service</h2>
+                        <div class="bt-option">
+                            <a href="#">Home</a>
+                            <span>Service</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> {% endcomment %}
+    <section class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2> Services</h2>
+                        <div >
+                            {% comment %} <a href="#">Home</a>
+                            <span>About</span> {% endcomment %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        .breadcrumb-section {
+            background: linear-gradient(rgba(36, 60, 48, 0.7), rgba(36, 60, 48, 0.7)), 
+                        url('static/img/nex-3.jpg'); /* Gradient + background image */
+            background-size: cover; /* Ensures the image covers the entire section */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents tiling of the image */
+            padding: 150px 0; /* Adjusts the spacing (optional) */
+            color: #fff; /* Adjusts text color for contrast (optional) */
+        }
+    </style>
+    <br><br><br>
+    <!-- Breadcrumb Section End -->
+
+    <!-- About Section Begin -->
+    
+
+
+    <!-- Story Section Begin -->
+    <section class="story-section spad" style="margin-top:-130px;"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="story-left">
+                        <div class="story-item">
+                            <h2>1</h2>
+                            <div class="si-text">
+                                <h4>Hackathons</h4>
+                                <p> We organize engaging hackathons to inspire creativity and
+                                    problem-solving among participants. These events encourage
+                                    innovation while providing a platform to showcase technical
+                                    expertise to our corporate partners</p>
+                            </div>
+                        </div>
+                        <div class="story-item">
+                            <h2>2</h2>
+                            <div class="si-text">
+                                <h4>  Startup Mentoring</h4>
+                                <p>Nexhire offers expert guidance to budding entrepreneurs,
+                                    helping them navigate the complexities of establishing and
+                                    scaling startups. Our mentors provide strategic insights and
+                                    actionable plans to turn ideas into successful ventures</p>
+                            </div>
+                        </div>
+                        <div class="story-item">
+                            <h2>3</h2>
+                            <div class="si-text">
+                                <h4> Promoting Students' Industrial Visits</h4>
+                                <p> Leveraging our strong corporate connections, we arrange
+                                    industrial visits that offer students firsthand exposure to real
+                                   world business environments. These visits enable students to
+                                    gain practical insights into industry operations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="story-right">
+                        <div class="story-item">
+                            <h2>4</h2>
+                            <div class="si-text">
+                                <h4>  Workshops, Seminars, and Webinars</h4>
+                                <p>Nexhire conducts specialized workshops, seminars, and
+                                    webinars designed to enhance skills and keep participants
+                                    aligned with the latest industry trends. Our events often
+                                    feature experts from renowned organizations.</p>
+                            </div>
+                        </div>
+                        <div class="story-item">
+                            <h2>5</h2>
+                            <div class="si-text">
+                                <h4>Placement Services</h4>
+                                <p>With a robust network of corporate partners, Nexhire connects
+                                    talented professionals with top-tier companies. Our placement
+                                    services are tailored to meet the needs of both candidates and
+                                    employers, ensuring successful and lasting collaborations</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Story Section End -->
+
+    <!-- Pricing Section Begin -->
+    
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Testimonials</h2>
+                        <p>Our customers are our biggest supporters. What do they think of us?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="testimonial-slider owl-carousel">
+                            <div class="col-lg-6">
+                                <div class="testimonial-item">
+                                    <div class="ti-author">
+                                        <div class="quote-pic">
+                                            <img src="{% static 'img/quote.png' %}" alt="">
+                                        </div>
+                                        <div class="ta-pic">
+                                            <img src="{% static 'img/testimonial/testimonial-1.jpg' %}" alt="">
+                                        </div>
+                                        <div class="ta-text">
+                                            <h5>Emma Sandoval</h5>
+                                            <span>Speaker Manager</span>
+                                        </div>
+                                    </div>
+                                    <p>“First impression is made by logo or its absence. To know the importance of a logo just answer one question: How many big, leading and famous companies don’t have logos?”</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="testimonial-item">
+                                    <div class="ti-author">
+                                        <div class="quote-pic">
+                                            <img src="img/quote.png" alt="">
+                                        </div>
+                                        <div class="ta-pic">
+                                            <img src="{% static 'img/testimonial/testimonial-2.jpg' %}" alt="">
+                                        </div>
+                                        <div class="ta-text">
+                                            <h5>John Smith</h5>
+                                            <span>Speaker Manager</span>
+                                        </div>
+                                    </div>
+                                    <p>“There is no denying the fact that the success of an advertisement lies mostly in the headline. The headline should attract the reader and make him read the rest of the advertisement.”</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="testimonial-item">
+                                    <div class="ti-author">
+                                        <div class="quote-pic">
+                                            <img src="{% static 'img/quote.png' %}" alt="">
+                                        </div>
+                                        <div class="ta-pic">
+                                            <img src="{% static 'img/testimonial/testimonial-2.jpg' %}" alt="">
+                                        </div>
+                                        <div class="ta-text">
+                                            <h5>John Smith</h5>
+                                            <span>Speaker Manager</span>
+                                        </div>
+                                    </div>
+                                    <p>“There is no denying the fact that the success of an advertisement lies mostly in the headline. The headline should attract the reader and make him read the rest of the advertisement.”</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Newslatter Section Begin -->
+    <section class="newslatter-section about-newslatter">
+        <div class="container">
+            <div class="newslatter-inner set-bg" data-setbg="{% static 'img/newslatter-bg.jpg' %}">
+                <div class="ni-text">
+                    <h3>Subscribe Newsletter</h3>
+                    <p>Subscribe to our newsletter and don’t miss anything</p>
+                </div>
+                <form action="#" class="ni-form">
+                    <input type="text" placeholder="Your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Newslatter Section End -->
+
+    <!-- Contact Section Begin -->
+    <section class="contact-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h2>Location</h2>
+                        <p>Get directions to our event center</p>
+                    </div>
+                    <div class="cs-text">
+                        <div class="ct-address">
+                            <span>Address:</span>
+                            <p>01 Pascale Springs Apt. 339, NY City <br/>United State</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <span>Phone:</span>
+                                (+12)-345-67-8910
+                            </li>
+                            <li>
+                                <span>Email:</span>
+                                info.colorlib@gmail.com
+                            </li>
+                        </ul>
+                        <div class="ct-links">
+                            <span>Website:</span>
+                            <p>https://conference.colorlib.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cs-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52901.38789495531!2d-118.19465514866786!3d34.03523211493029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cf71ad83ff9f%3A0x518b28657f4543b7!2sEast%20Los%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1579763856144!5m2!1sen!2sbd" height="400" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    {% endblock %}
